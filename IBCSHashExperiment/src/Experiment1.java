@@ -16,7 +16,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.io.*;  
 
-public class Experiment {
+public class Experiment1 {
 	
 		public static void main(String args[]) throws NoSuchAlgorithmException, IOException 
 	{
@@ -148,23 +148,3 @@ public class Experiment {
 }
 
 
-
-
-//String fName = "/Users/21skim/Desktop/EnglishWords/EnglishWords.rtf"; // integrating over 6000000 dictionary words from a dictionary file
-//	Scanner s = new Scanner(new File(fName));
-
-	//String englishWords [] = new String[600000];
-	//int z = 0;
-	/*
-	while(s.hasNext())// generating hash values from the three hash algorithm by using 
-	{
-		englishWords[z] = s.next(); 
-		User_Password[z]= englishWords[z];
-		MD5_Password[z] = getMd5(User_Password[z]);
-		SHA256_Password[z] = toHexString(getSHA(User_Password[z]));
-		SHA512_Password[z] = getSHA512(User_Password[z]);
-		z++;    
-	}
-	*/
-	
-	
